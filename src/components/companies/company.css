@@ -1,0 +1,41 @@
+.companys {
+  width: 1920px;
+  margin: auto;
+  .companys-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .companys-ttl {
+      width: 424px;
+      height: 130px;
+      gap: 24px;
+      opacity: 0px;
+
+      h1 {
+        stylename: Heading/03;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        margin-bottom: 24px;
+      }
+      p {
+        stylename: Body Medium/400;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: -0.01em;
+        text-align: left;
+      }
+    }
+    .companys-imgs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0px 40px 0px;
+    }
+  }
+}
