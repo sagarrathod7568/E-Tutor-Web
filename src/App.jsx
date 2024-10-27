@@ -2,13 +2,16 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Main from "./components/main/Main";
 import Companys from "./components/companies/Companys";
+import Practice from "./components/main/Practice";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Main />
-      <Companys />
+      {/* <Navbar /> */}
+      {/* <Main /> */}
+      {/* <Companys /> */}
+
+      <Practice />
     </>
   );
 }

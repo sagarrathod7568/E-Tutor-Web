@@ -5,11 +5,13 @@ import lable from "../../assets/Frame 145.png";
 import bussiness from "../../assets/Frame 145 (1).png";
 import courseImg1 from "../../assets/Course Images.png";
 import courseImg2 from "../../assets/Course Images (1).png";
+import Practice from "./Practice";
 
 export default function () {
   return (
     <>
       <main>
+        <Practice />
         <section className="head">
           <div className="head-main">
             <div className="head-title">
