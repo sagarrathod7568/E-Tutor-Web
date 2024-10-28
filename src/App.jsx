@@ -1,8 +1,9 @@
 import "./App.css";
-import Navbar from "./components/navbar/Navbar";
-import Main from "./components/main/Main";
-import Companys from "./components/companies/Companys";
-import Practice from "./components/main/Practice";
+// import Navbar from "./components/navbar/Navbar";
+// import Main from "./components/main/Main";
+// import Companys from "./components/companies/Companys";
+// import Practice from "./components/main/Practice";
+import Form from "./components/toggleComponent/Form";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Main /> */}
       {/* <Companys /> */}
 
-      <Practice />
+      {/* <Practice /> */}
+      <Form />
     </>
   );
 }
